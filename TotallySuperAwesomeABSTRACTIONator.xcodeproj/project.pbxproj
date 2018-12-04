@@ -54,14 +54,38 @@
 		6B4A699C21B6D43F00FC4CF3 /* TotallySuperAwesomeABSTRACTIONator */ = {
 			isa = PBXGroup;
 			children = (
-				6B4A699D21B6D43F00FC4CF3 /* AppDelegate.swift */,
-				6B4A699F21B6D43F00FC4CF3 /* ViewController.swift */,
-				6B4A69A121B6D43F00FC4CF3 /* Main.storyboard */,
-				6B4A69A421B6D44100FC4CF3 /* Assets.xcassets */,
-				6B4A69A621B6D44100FC4CF3 /* LaunchScreen.storyboard */,
-				6B4A69A921B6D44100FC4CF3 /* Info.plist */,
+				6B4A69B021B6D4C200FC4CF3 /* Resources */,
+				6B4A69B121B6D4D400FC4CF3 /* Controller */,
+				6B4A69AF21B6D4B100FC4CF3 /* View */,
 			);
 			path = TotallySuperAwesomeABSTRACTIONator;
+			sourceTree = "<group>";
+		};
+		6B4A69AF21B6D4B100FC4CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A69A121B6D43F00FC4CF3 /* Main.storyboard */,
+				6B4A69A621B6D44100FC4CF3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B4A69B021B6D4C200FC4CF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A699D21B6D43F00FC4CF3 /* AppDelegate.swift */,
+				6B4A69A421B6D44100FC4CF3 /* Assets.xcassets */,
+				6B4A69A921B6D44100FC4CF3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B4A69B121B6D4D400FC4CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B4A699F21B6D43F00FC4CF3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
